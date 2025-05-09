@@ -49,8 +49,8 @@ Berikut adalah penjelasan masing-masing kolom dalam dataset:
 ## ⚙️ Metodologi
 
 - **Pra-pemrosesan**: Encoding, scaling, handling missing values.
-- **Resampling**: Menggunakan SMOTE untuk mengatasi ketidakseimbangan kelas.
-- **Modeling**: Algoritma seperti Logistic Regression, Random Forest, XGBoost.
+- **Resampling**: Menggunakan RandomOverSampling untuk mengatasi ketidakseimbangan kelas.
+- **Modeling**: Algoritma seperti Logistic Regression,KNN, Decision Tree, Random Forest, XGBoost.
 - **Tuning**: Hyperparameter tuning untuk meningkatkan performa model.
 - **Evaluasi**: Confusion matrix, precision, recall, F1-score, ROC-AUC.
 - **Interpretasi**: SHAP values digunakan untuk menginterpretasikan model.
@@ -62,7 +62,7 @@ Berikut adalah penjelasan masing-masing kolom dalam dataset:
 
 - Fitur `duration` (durasi kontak), `poutcome_success`, dan `balance` adalah yang paling berpengaruh terhadap keberhasilan kampanye.
 - Model dapat membantu menyaring nasabah yang berpotensi tinggi untuk dikontak terlebih dahulu.
-- Pendekatan berbasis data dapat menghemat biaya kampanye dan meningkatkan ROI.
+- Pendekatan berbasis data dapat menghemat biaya kampanye sebesar **39.9%**.
 
 ---
 
